@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IA Video Generator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>IA <span>Video Generator</span></h1>
+
+  <textarea id="prompt" placeholder="Escribe tu idea aquí..."></textarea>
+  <button id="generateBtn">Generar Video</button>
+
+  <div id="status" class="hidden">Generando...</div>
+
+  <!-- Barra de progreso premium -->
+  <div id="progressContainer">
+    <div id="progressBar"></div>
+  </div>
+
+  <!-- Video generado -->
+  <video id="video" controls></video>
+
+  <!-- Publicidad real -->
+  <div id="ad">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-TU_ID_AQUI"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
