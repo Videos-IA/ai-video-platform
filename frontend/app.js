@@ -6,7 +6,8 @@ const progressBar = document.getElementById("progressBar");
 const ad = document.getElementById("ad");
 
 // Cambiar URL al dominio de tu deploy
-const API_BASE = "https://ai-video-platform.onrender.com/api/generate";
+const API_BASE = "https://ai-video-platform-ajco.onrender.com";
+
 
 btn.onclick = async () => {
   const prompt = promptInput.value.trim();
